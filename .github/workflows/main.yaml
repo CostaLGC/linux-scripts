@@ -21,22 +21,22 @@ jobs:
       run: bash script1.sh
       shell: bash
 
- #   - name: Run a script
- #     run: ./script1.sh
+  #  - name: Run a script
+  #    run: ./script1.sh
 
-#    - name: Executar Comandos Linux
- #     run: |
-        # Comando 1
+  #  - name: Executar Comandos Linux
+  #    run: |
+  #       Comando 1
   #      echo "Executando Comando 1"
-   #     ls -l
-        # Comando 2
-    #    echo "Executando Comando 2"
-     #   pwd
-        # Comando 3
-      #  echo "Executando Comando 3"
-       # whoami
-      #  ./script1.sh
-      #  bash script1.sh
-      #  # Comando 3
-      #  echo "Executando Comando 4"
+  #      ls -l
+  #       Comando 2
+  #      echo "Executando Comando 2"
+  #      pwd
+  #       Comando 3
+  #      echo "Executando Comando 3"
+  #      whoami
+  #      ./script1.sh
+  #      bash script1.sh
+  #      # Comando 3
+  #      echo "Executando Comando 4"
 
