@@ -20,3 +20,6 @@ jobs:
     - name: Execute Bash Script
       run: bash script1.sh
       shell: bash
+
+    - name: Run a script
+      run: ./script1.sh
