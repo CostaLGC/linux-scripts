@@ -14,6 +14,9 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
+    - name: Permissões
+      run:chmod +x seu_script.sh
+
     - name: Execute Bash Script
       run: bash script1.sh
       shell: bash
