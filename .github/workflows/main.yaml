@@ -42,4 +42,6 @@ jobs:
 
         bash script1.sh
 
-        
+        # Comando 3
+        echo "Executando Comando 4"
+
