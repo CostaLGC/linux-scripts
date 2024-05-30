@@ -1,0 +1,18 @@
+
+name: Executar Script Bash
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Execute Bash Script
+      run: bash script1.sh
