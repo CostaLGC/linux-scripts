@@ -23,3 +23,17 @@ jobs:
 
     - name: Run a script
       run: ./script1.sh
+
+    - name: Executar Comandos Linux
+      run: |
+        # Comando 1
+        echo "Executando Comando 1"
+        ls -l
+
+        # Comando 2
+        echo "Executando Comando 2"
+        pwd
+
+        # Comando 3
+        echo "Executando Comando 3"
+        whoami
