@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Permissões
-      run: chmod +x seu_script.sh
+      run: chmod +x script1.sh
 
     - name: Execute Bash Script
       run: bash script1.sh
