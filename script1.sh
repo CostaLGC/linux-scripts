@@ -1,13 +1,4 @@
 #!/bin/bash
-
-# # Script em Bash que imprime "Hello, world!"
-# echo "Hello, world!"
-ls
-cd /etc
-ls
-cd
+ls -lah
 echo $SHELL
-
 which bash
-
-
