@@ -22,3 +22,10 @@ echo $files
 echo -e "-------------"
 files=$(pwd)
 echo $files
+
+## Variaveis
+echo -e "-------------"
+date
+now=$(date)
+echo "The system time and date is: "
+echo $now
