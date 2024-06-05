@@ -48,3 +48,4 @@ echo -e $env
 ## 04 Basic Math
 echo -e "-------------"
 expr 30 + 10
+expr 30 - 10
