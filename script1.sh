@@ -49,3 +49,5 @@ echo -e $env
 echo -e "-------------"
 expr 30 + 10
 expr 30 - 10
+expr 30 / 10
+expr 100 * 4
