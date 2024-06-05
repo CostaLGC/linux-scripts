@@ -28,3 +28,13 @@ echo -e "-------------"
 now=$(date)
 echo "The system time and date is: "
 echo $now
+
+
+## Variaveis
+echo -e "-------------"
+name="Luiz"
+now=$(date)
+echo "Hello $name"
+echo "The system time and date is:"
+echo $now
+echo "Your username is: $USER"
