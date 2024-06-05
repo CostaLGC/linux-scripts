@@ -57,3 +57,9 @@ echo $mynum1
 expr $mynum1 + 50
 
 ## 05 If statements
+
+
+mynum=200
+if [ $mynum -eq 200 ]
+then
+  echo "The condition is true."
