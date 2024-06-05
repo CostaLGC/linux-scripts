@@ -67,3 +67,18 @@ then
 else
     echo "The variable does not equal 200"
 fi
+
+
+if [ $mynum -gt 200 ]
+then
+    echo "The condition is true."
+else
+    echo "The variable does not equal 200"
+fi
+
+if  [ -f ~/script.sh ]
+then
+    echo "The file exists"
+else
+    echo "The file does not exists"
+fi
