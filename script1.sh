@@ -77,7 +77,7 @@ else
 fi
 
 ls
-if  [ -f ~/script1.sh ]
+if  [ -f "$script1.sh" ]
 then
     echo "The file exists"
 else
