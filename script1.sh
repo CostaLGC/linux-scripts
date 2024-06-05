@@ -14,6 +14,11 @@ myage="40"
 word="fun"
 
 ## Salvar resultado de comandos
-echo "/n New lesson"
+echo -e "-------------"
 files=$(ls)
+echo $files
+
+## Salvar resultado de comandos
+echo -e "-------------"
+files=$(pwd)
 echo $files
