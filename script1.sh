@@ -51,3 +51,7 @@ expr 30 + 10
 expr 30 - 10
 expr 30 / 10
 expr 100 \* 4
+
+mynum1=100
+echo $mynum1
+expr $mynum1 + 50
