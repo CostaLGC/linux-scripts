@@ -43,3 +43,8 @@ echo "Your username is: $USER"
 ## enviromenecho "Hello $name"
 echo -e "-------------"
 echo -e $env
+
+
+## 04 Basic Math
+echo -e "-------------"
+expr 30 + 10
