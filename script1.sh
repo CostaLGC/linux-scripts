@@ -37,4 +37,9 @@ now=$(date)
 echo "Hello $name"
 echo "The system time and date is:"
 echo $now
+## user variable
 echo "Your username is: $USER"
+
+## enviromenecho "Hello $name"
+echo -e "-------------"
+echo -e $env
