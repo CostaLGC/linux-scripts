@@ -55,3 +55,5 @@ expr 100 \* 4
 mynum1=100
 echo $mynum1
 expr $mynum1 + 50
+
+## 05 If statements
