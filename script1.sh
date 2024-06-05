@@ -76,6 +76,7 @@ else
     echo "The variable does not equal 200"
 fi
 
+ls
 if  [ -f ~/script1 ]
 then
     echo "The file exists"
