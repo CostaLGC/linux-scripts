@@ -12,5 +12,8 @@ myage="40"
 
 
 word="fun"
+
+## Salvar resultado de comandos
+echo "/n New lesson"
 files=$(ls)
 echo $files
