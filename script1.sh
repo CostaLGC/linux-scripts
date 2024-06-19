@@ -76,8 +76,18 @@ else
     echo "The variable does not equal 200"
 fi
 
-ls
-if  [ -f "script1.sh" ]
+
+## What means following "-f"? 
+## File?
+if  [ -f "script1.sh" ] 
+then
+    echo "The file exists"
+else
+    echo "The file does not exists"
+fi
+
+
+if  [ -d "home" ]
 then
     echo "The file exists"
 else
