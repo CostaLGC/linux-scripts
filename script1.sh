@@ -104,7 +104,6 @@ else
     #sudo apt-get update && sudo apt install -y htop
 fi
 
-$command
 
 
 # command=htop
